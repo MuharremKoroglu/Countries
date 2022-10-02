@@ -3,7 +3,7 @@
 #### Thank You for taking the time to view my repository 
 
 ## <h2> About This App <img src = "https://c.tenor.com/JsoERRQcZqYAAAAi/thumbs-up-joypixels.gif" width = "42"></h2>
-This application is a recipe application. Shows developers how to use the TableView class. To use TableView, we must first inherit the UITableViewDelegate and UITableViewDataSource classes into our project. Then, in viewDidLoad, we equal the delegate and dataSource methods to the self-expression. Then we add the numberOfRowsInSection and cellForRowAt functions to the project. TableView is now ready to use. One array was used for food names, food pictures, and recipes. In this way, we were able to access the elements in the arrays one by one with the indexPath.row inside the TableView functions. We used the didSelectRowAt function to open the second page when the user clicks on the rows. Here, we took the data from the first page to the second page and started the segue process. We transferred the data on the first page to the second page with the Prepare segue function. In addition, we performed the deletion operations with the commit function given to us by TableView. Finally, we designed a unique icon for our application and placed it in the project.
+This app provides information about countries located around the World. Shows developers how to use the TableView property with classes. First, we created a class called countries. In this class, we created a model of the country's name, flag, and detailed information about the country. Then we created country objects from the class we created in the ViewController. When the user clicks on the country names in TableView, they can switch to a new page. We used an ImageView to see the flag of the country on the page that opens, a Label for the country name, and another Label for detailed information. We used the didSelectRowAt method of the TableView structure to get to this page. In this way, we have achieved a clickable structure. When the rows are clicked, the segue process is started and the information about the selected country is sent to the second page. If the sent information is successful, the user can get information about the country. In addition, we have added the ability to delete the elements in the list with the commit method of the TableView feature. In this way, the user can delete the desired data by swiping left. However, since there is no database in the application, the deletion process is done only in the area that the user sees. Deleted elements are reloaded if the application is restarted. Finally, we made readability improvements and completed the application.
 
 <h2> Used Technologies <img src = "https://media2.giphy.com/media/QssGEmpkyEOhBCb7e1/giphy.gif?cid=ecf05e47a0n3gi1bfqntqmob8g9aid1oyj2wr3ds3mg700bl&rid=giphy.gif" width = "42"> </h2>
 <div class="row">
@@ -23,11 +23,12 @@ This application is a recipe application. Shows developers how to use the TableV
 
 <h2> Images <img src = "https://media2.giphy.com/media/psneItdLMpWy36ejfA/source.gif" width = "62"> </h2>
   <div class="column">
+
+https://user-images.githubusercontent.com/68854616/193445122-e3bbd34b-56b4-4d02-b763-4f2cc0f42b05.mp4
+
+
   
 
-
-
-https://user-images.githubusercontent.com/68854616/193274185-e02854da-8e65-484b-b49d-a5cee225f929.mp4
 
 
 
